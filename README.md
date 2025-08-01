@@ -80,6 +80,7 @@ Since the record is empty, the total sum is 0.
  8. Return the sum of the stack .
 # Complexity
 a. Time complexity
+
 Loop runs once for each operation → O(n)
 
 Each operation (+, D, C, number) takes O(1) time
@@ -88,7 +89,8 @@ sum(stack) at the end takes O(n) in the worst case
 
 Total: O(n)
 
-b. Space Complexity: O(n)
+b. Space Complexity
+
 Stack stores all valid scores
 
 In the worst case, no scores are removed
